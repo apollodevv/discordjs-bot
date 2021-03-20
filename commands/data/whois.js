@@ -1,18 +1,18 @@
 module.exports = {
     name: "whois",
-    description: "Gets data information about someone.",
+    description: "Gets user information.",
     execute(message) {
         const Discord = require("discord.js");
 
         const whois = new Discord.MessageEmbed()
     .setColor('#fff')
     .setAuthor(`${message.author.tag}`)
-    .setDescription('---')
+    .setDescription('')
     .addFields(
         { name: '', value: ''}
     )
     .setTimestamp()
-    .setFooter('hi');
+    .setFooter('');
 
 message.channel.send(whois)
     }

@@ -3,6 +3,8 @@ const client = new Discord.Client();
 const fs = require("fs");
 const { token, prefix } = require("./config.json");
 
+
+// command & event handler
 client.commands = new Discord.Collection();
 client.cooldowns = new Discord.Collection();
 const commandFolders = fs.readdirSync('./commands');

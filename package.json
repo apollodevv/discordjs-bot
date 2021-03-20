@@ -2,13 +2,13 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "express": "^4.17.1",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "passport-discord": "^0.1.4"
   },
-  "name": "discordjs-bot",
+  "name": "apollo-bot",
   "version": "1.0.0",
   "description": "Simple Discord bot",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,13 @@
     "discordjs"
   ],
   "author": "apollodev",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollodevv/discordjs-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apollodevv/discordjs-bot/issues"
+  },
+  "homepage": "https://github.com/apollodevv/discordjs-bot#readme"
 }
